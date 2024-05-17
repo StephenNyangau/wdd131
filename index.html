@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Stephen Nyang'au</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Stephen Nyang'au. Keyword summary of page content">
+    <meta name="author" content="Stephen Nyang'au">
+
+    <!-- Stylesheets, scripts, and other meta tags can be included here -->
+
+</head>
+<body>
+    <header>
+        <h1>Dynamic Web Fundamentals</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/learning/">LinkedIn Profile</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ex/5?lang=eng">Favorite Scripture</a></li>
+                <li><a href="A place Holder">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                Morendi, hailing from Kenya, is a dedicated software development student with a passion for watching documentaries. Embracing a profound love for God and Jesus, he values friendship and enjoys connecting with others. Known for his reserved nature, Morendi communicates thoughtfully and prefers meaningful interactions. His pursuit of knowledge and faith shapes his journey towards personal and professional growth..</p>
+            <img src="C:\wdd131\images\steve3.jpg" alt="steve3">
+            <ul>
+                <li><a href="https://www.freecodecamp.org/">FreeCoding</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://gomycode.com/ke/">Go My Code</a></li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Nairobi, Kenya</h2>
+            <p>Kenya is a country located in East Africa, bordered by Tanzania, Uganda, South Sudan, Ethiopia, and Somalia. Known for its diverse landscapes ranging from savannahs and mountains to lakes and beaches, Kenya is famous for its wildlife, including lions, elephants, and rhinos, found in national parks such as the Maasai Mara. Nairobi, its capital city, serves as a regional hub for commerce, culture, and government.
+
+
+
+
+                .</p>
+            <img src="https://nairobi.go.ke/" alt="">
+            <ul>
+                <li><a href="https://venasnews.co.ke/2024/05/13/24-important-real-life-lessons-for-kenyans/">venasnews</a></li>
+                <li><a href="https://medium.com/@abebaebrima/nairobi-kenya-44c469dd1529">Nairobi, Kenya</a></li>
+                <li><a href="https://search.app.goo.gl/F2mXSdH">Nairobi City</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Stephen Nyang'au, Nairobi, Kenya.
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- JavaScript code to dynamically populate current year and last modified date -->
+    <script>
+        // Populate current year
+        document.getElementById('currentyear').innerText = new Date().getFullYear();
+
+        // Populate last modified date
+        document.getElementById('lastModified').innerText = 'Last modified: ' + document.lastModified;
+    </script>
+</body>
+</html>
